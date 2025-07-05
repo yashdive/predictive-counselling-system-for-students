@@ -15,7 +15,7 @@ This project aims to predict whether a student may need mental health counseling
 
 ---
 
-## 🧪 Models Used
+## Models Used
 
 | Model         | Accuracy | F1-Score (Class 1) | Notes                     |
 |---------------|----------|--------------------|---------------------------|
@@ -24,7 +24,7 @@ This project aims to predict whether a student may need mental health counseling
 
 ---
 
-## 📊 SHAP Explainability
+## SHAP Explainability
 
 SHAP was used to explain the XGBoost predictions.
 
@@ -42,16 +42,16 @@ SHAP was used to explain the XGBoost predictions.
 
 ---
 
-### ✅ Preprocessing
+### Preprocessing
 - Label and One-Hot Encoding
 - Log transformation for skewed variables
 - Feature engineering: `avg_parent_edu`, `low_studytime`, `high_goout`
 
-### ✅ Modeling
+### Modeling
 - SMOTE applied to handle class imbalance
 - Trained using `RandomForestClassifier` and `XGBClassifier`
 
-### ✅ Saving Artifacts
+### Saving Artifacts
 ```python
 joblib.dump(model, 'models/xgb_model.pkl')
 
