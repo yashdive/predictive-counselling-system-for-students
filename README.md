@@ -28,8 +28,7 @@ This project aims to predict whether a student may need mental health counseling
 
 SHAP was used to explain the XGBoost predictions.
 
-![SHAP Summary](![image](https://github.com/user-attachments/assets/6d405375-716c-48a6-a501-72a7925e968a)
-)
+![image](https://github.com/user-attachments/assets/6d405375-716c-48a6-a501-72a7925e968a)
 
 > Surprisingly, `school`, `failures`, and `family relationship quality` were among the top predictors — further investigated using EDA.
 
